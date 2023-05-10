@@ -1,7 +1,8 @@
 # tkh
 Teste de programação em Python 
 """ A partir de agora estes codigos são codigos que eu desenvolvi para aprendizado.
-|||||||||| Vou utilizar os codigos, acima em novos exemplos.
+Vou utilizar os codigos, em novos exemplos.
+Criação de uma aplicação para calcular raizes da equação de segundo grau x² + x = 1 = 0 além do seu gráfico.
 """
 
 from matplotlib import pyplot as plt
@@ -31,15 +32,15 @@ else:
     print(f"As raízes são: {raizes}")
 
 # Calcular o valor de y para alguns valores de x
-x_values = []
-y_values = []
+x_valores = []
+y_valores = []
 for x in range(-10, 11):
     y = a*x**2 + b*x + c
-    x_values.append(x)
-    y_values.append(y)
+    x_valores.append(x)
+    y_valores.append(y)
 
 # Plotar a parábola
-plt.plot(x_values, y_values, color='blue')
+plt.plot(x_valores, y_valores, color='blue')
 plt.title("Gráfico da equação.")
 plt.xlabel("x")
 plt.ylabel("y")
